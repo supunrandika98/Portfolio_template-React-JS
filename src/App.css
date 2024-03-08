@@ -1,0 +1,64 @@
+.App {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.body-tertiary{
+  background-color: #21325E !important;
+  color:  white;
+  font-size: larger;
+     
+}
+
+.footer{
+  overflow-x: hidden;
+  height: 35vh;
+  background-color: #21325E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.socialMedia{
+  margin: 3% auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 4.5rem;
+  cursor: pointer;
+}
+
+.icon{
+  padding: 2% 4%;
+}
+
+.intro{
+  overflow-x: hidden;
+  padding: 6% 4%;
+  font-size: calc(16px + 0.4vw);
+}
+
+.intro .icons{
+  font-size: 2.5rem !important;
+  margin: 6% 2%;
+}
+
+.skills{
+  margin-bottom: 8%;
+  margin-top: 2%;
+}
+
+
+.skill-icon{
+  align-items: center;
+  margin: 6% auto 3%;
+  font-size: 5rem !important
+}
+
+.timeline{
+  font-size: 2rem;
+}
